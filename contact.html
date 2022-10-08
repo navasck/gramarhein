@@ -35,13 +35,16 @@
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="about.html">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
+                            <a class="nav-link" href="#">Products</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="contact.html">Contact</a>
+                            <a class="nav-link" href="#">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
                     
@@ -97,7 +100,8 @@
                 </div>
             </div>
             <div class="form-inner-cont mx-auto" style="max-width:800px">
-                <form action="mail/send-mail.php" method="post" class="signin-form">
+                
+                    <form name="enquireForm" class="signin-form" method="post" id="enquireForm" action="send-mail-enquire.php">
                     
                     <div class="row align-form-map">
                         <div class="col-sm-6 form-input">
@@ -117,7 +121,7 @@
                         <textarea placeholder="Message" name="message" id="ghMessage" required=""></textarea>
                     </div>
                     <div class="submit text-right">
-                        <button type="submit" class="btn btn-style">Submit</button>
+                        <button type="submit" class="btn btn-style" name="submit"  value="submit">Submit</button>
                     </div>
                 </form>
             </div>

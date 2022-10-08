@@ -19171,9 +19171,10 @@ a.btn-style-primary i {
 
 /* title style */
 h3.title-style {
-  font-size: 44px;
+  font-size: 70px;
   line-height: 50px;
   font-weight: bold;
+  font-family: 'Rokkitt', serif!important;
 }
 
 h3.title-style span {
@@ -23544,7 +23545,7 @@ h4.inner-text-title {
   bottom: 0;
   right: 0;
   margin: 0;
-  background-color: rgb(245 71 72 / 80%);
+  background-color: #119c4ab8;
   opacity: 0;
   transition: all 0.3s;
 }
@@ -23573,7 +23574,7 @@ h4.inner-text-title {
 .gh-team-61 .desk h4,
 .gh-team-61 .team-hover .s-link a {
   text-align: center;
-  color: #1e272e;
+  color: #fff;
 }
 
 .gh-team-61 .team-member:hover .team-hover .s-link {
