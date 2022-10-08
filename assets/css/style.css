@@ -99,8 +99,23 @@ border-radius: 0px;
 .nav-fixed .callusheader, .nav-fixed .callusheader a{color:#000}
 
 
+/* aboutus page */
+
+
+.our-story{background-color: #a9c1a9;}
+.sustainability{background-color: #e8dcc6;}
+.aboutus-para{
+  font-size: 30px;
+  line-height: 40px;
+}
+
+
 @media only screen and (max-width: 991px){
 .navbar {
   flex-wrap: wrap;
+}
+.aboutus-para{
+  font-size: 16px;
+  line-height: 28px;
 }
 }
