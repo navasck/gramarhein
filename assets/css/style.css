@@ -103,7 +103,7 @@
   border-radius: 25px;
   border: 1px solid rgb(85, 85, 85);
   margin-right: 15px;
-  font-family: 'Rokkitt', serif!important;
+  font-family: "Rokkitt", serif !important;
   font-size: 18px;
 }
 
@@ -129,6 +129,10 @@
   font-size: 30px;
   line-height: 40px;
 }
+.vision {
+  font-size: 30px;
+  line-height: 40px;
+}
 
 /* Products */
 
@@ -141,7 +145,13 @@
 .products p {
   text-align: center;
 }
-.productlist-row{justify-content: center;}
+.productlist-row {
+  justify-content: center;
+}
+.product1 img {
+  border-radius: 10px;
+}
+
 
 @media only screen and (max-width: 991px) {
   .navbar {
@@ -161,5 +171,7 @@
   .nav-pills .nav-link {
     width: 100%;
   }
-  .productlist-row{justify-content:flex-start;}
+  .productlist-row {
+    justify-content: flex-start;
+  }
 }
