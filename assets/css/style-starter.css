@@ -22836,6 +22836,7 @@ h3.title-style span {
   font-size: 22px;
   line-height: 28px;
   margin-bottom: 18px;
+  text-transform: uppercase;
 }
 
 .image-overlay p {
