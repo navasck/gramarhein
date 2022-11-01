@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 
          $mail->Subject = "Gramarhein-QUICK ENQUIRY FROM IP ".$ip;
 
-    $toaddress = array('abdul.navas@theretailinsights.com');
+    $toaddress = array('abdul.navas@theretailinsights.com', 'cknavas123@gmail.com');
        
      
     ob_start();
