@@ -18840,7 +18840,8 @@ div#small-dialog iframe {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
   font-size: 14px;
-  color: #fff;
+  /* color: #fff; */
+  color: #fb811e;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: .5px;
@@ -19267,6 +19268,7 @@ h3.title-style span {
   height: auto;
   position: relative;
   overflow: hidden;
+  margin-top: 90px;
 }
 
 .banner-slider {
@@ -19291,28 +19293,28 @@ h3.title-style span {
 }
 
 .bg1 {
-  background: url(../images/b4.jpg) no-repeat top;
+  background: url(../images/slider-1.jpg) no-repeat top;
   background-size: cover;
 }
 
 .bg2 {
-  background: url(../images/b2.jpg) no-repeat top;
+  background: url(../images/slider-2.jpg) no-repeat top;
   background-size: cover;
 }
 
 .bg3 {
-  background: url(../images/b3.jpg) no-repeat top;
+  background: url(../images/slider-3.jpg) no-repeat top;
   background-size: cover;
 }
 
 .bg4 {
-  background: url(../images/b1.jpg) no-repeat top;
+  background: url(../images/slider-4.jpg) no-repeat top;
   background-size: cover;
 }
 
 .slick-initialized .banner-slide {
   position: relative;
-  min-height: 800px;
+  min-height: 600px;
   padding-bottom: 100px;
   display: flex !important;
   align-items: center;
@@ -19447,6 +19449,17 @@ h3.title-style span {
     line-height: 60px;
   }
 }
+@media (min-width: 1600px) {
+  .slick-initialized .banner-slide {
+    min-height: 700px;
+  }
+}
+@media (min-width: 1900px) {
+  .slick-initialized .banner-slide {
+    min-height: 800px;
+  }
+}
+
 
 @media (max-width: 768px) {
   .hero-content h1 {
@@ -19455,7 +19468,7 @@ h3.title-style span {
   }
 
   .slick-initialized .banner-slide {
-    min-height: 650px;
+    min-height: 600px;
     padding-bottom: 40px;
   }
 }
@@ -19523,7 +19536,8 @@ h3.title-style span {
   }
 
   .slick-initialized .banner-slide {
-    min-height: 550px;
+    /* min-height: 550px; */
+    min-height: 170px;
   }
 
   .banner-slider .slick-arrow:before {
@@ -22874,6 +22888,7 @@ a.blog-image .iconic-plus i {
   -ms-background-size: cover;
   position: relative;
   z-index: 1;
+  border-radius: var(--border-radius);
 }
 
 .gh-content1::before {
@@ -22883,7 +22898,7 @@ a.blog-image .iconic-plus i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--layer);
+  /* background: var(--layer); */
   z-index: -1;
 }
 
