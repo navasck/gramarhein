@@ -4559,6 +4559,7 @@ fieldset:disabled .btn {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
+  justify-content: flex-end!important;
 }
 
 .navbar-toggler {
@@ -23043,6 +23044,9 @@ h4.number {
 .box-wrap p {
   margin: 0;
   color: var(--para-color);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .search-box .icon {
