@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $mail2 = new PHPMailer();
     $mail->IsHTML(true);
 
-    $mail->From = 'abdul.navas@theretailinsights.com';
+    $mail->From = 'info@gramarhein.com';
     
     $reply_to = array($_POST['email']);
     $mail->FromName = $_POST['name'];
@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
 
          $mail->Subject = "Gramarhein-QUICK ENQUIRY FROM IP ".$ip;
 
-    $toaddress = array('abdul.navas@theretailinsights.com', 'cknavas123@gmail.com');
+    $toaddress = array('info@gramarhein.com', 'cknavas123@gmail.com');
        
      
     ob_start();
