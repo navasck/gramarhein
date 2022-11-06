@@ -18840,8 +18840,8 @@ div#small-dialog iframe {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 0;
   font-size: 14px;
-  /* color: #fff; */
-  color: #fb811e;
+  color: #fff;
+  /* color: #fb811e; */
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: .5px;
@@ -19112,6 +19112,7 @@ header.nav-fixed {
 @media only screen and (max-width: 480px) {
   .navbar .navbar-brand {
     font-size: 32px;
+    flex: 1;
   }
 
   .cont-ser-position {
@@ -19268,7 +19269,7 @@ h3.title-style span {
   height: auto;
   position: relative;
   overflow: hidden;
-  margin-top: 90px;
+  /* margin-top: 90px; */
 }
 
 .banner-slider {
@@ -19309,6 +19310,26 @@ h3.title-style span {
 
 .bg4 {
   background: url(../images/slider-4.jpg) no-repeat top;
+  background-size: cover;
+}
+.bg5 {
+  background: url(../images/slider-5.jpg) no-repeat top;
+  background-size: cover;
+}
+.bg6 {
+  background: url(../images/slider-6.jpg) no-repeat top;
+  background-size: cover;
+}
+.bg7 {
+  background: url(../images/slider-7.jpg) no-repeat top;
+  background-size: cover;
+}
+.bg8 {
+  background: url(../images/slider-8.jpg) no-repeat top;
+  background-size: cover;
+}
+.bg9 {
+  background: url(../images/slider-9.jpg) no-repeat top;
   background-size: cover;
 }
 
@@ -19415,12 +19436,12 @@ h3.title-style span {
   margin-bottom: 18px;
   color: #fff;
   max-width: 700px;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-weight: 100;
+  /* text-transform: uppercase; */
 }
 
 .hero-content h1 span {
-  font-weight: 100;
+  font-weight: 700;
 }
 
 .hero-content .cta-btn {
@@ -19519,7 +19540,7 @@ h3.title-style span {
   }
 
   .hero-content {
-    margin: 0 2em;
+    margin: 0px 2em 20px;
   }
 
   .hero-content p {
@@ -19531,8 +19552,8 @@ h3.title-style span {
 
 @media (max-width: 480px) {
   .hero-content h1 {
-    font-size: 35px;
-    line-height: 45px;
+    font-size: 25px;
+    line-height: 25px;
   }
 
   .slick-initialized .banner-slide {
