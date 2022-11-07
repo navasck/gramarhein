@@ -138,6 +138,13 @@
 .ceo-para {
   font-size: 24px;
   line-height: 35px;
+  text-align: justify;
+}
+.ceo-img {
+  height: 270px;
+}
+.mob-found-title {
+  display: none;
 }
 .vision {
   font-size: 30px;
@@ -208,6 +215,26 @@
   }
   .hero-content .cta-btn {
     padding-top: 10px;
+  }
+  .mob-found-title {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .desk-found-title {
+    display: none;
+  }
+  .ceo-img-section {
+    text-align: center;
+  }
+  .ceo-img {
+    height: 200px;
+  }
+  .fixed-social {
+    margin-top: 40%;
+  }
+  .ceo-para {
+    font-size: 16px;
+    line-height: 28px;
   }
 }
 
@@ -332,7 +359,7 @@
   position: relative;
 }
 
-.fixed-social ul li a{
+.fixed-social ul li a {
   color: #fff;
   display: block;
   width: 100%;
