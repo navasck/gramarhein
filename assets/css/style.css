@@ -229,7 +229,13 @@
   .ceo-img {
     height: 200px;
   }
-  .fixed-social{margin-top: 40%;}
+  .fixed-social {
+    margin-top: 40%;
+  }
+  .ceo-para {
+    font-size: 16px;
+    line-height: 28px;
+  }
 }
 
 /* loader css */
